@@ -14,12 +14,12 @@ function test2(name) {
     return "123";
 }
 test2("234");
-var Person = (function () {
-    function Person() {
+var _Person = (function () {
+    function _Person() {
     }
-    return Person;
+    return _Person;
 })();
-var person1 = new Person();
+var person1 = new _Person();
 person1.age = 12;
 person1.name = "eee";
 console.log(person1);

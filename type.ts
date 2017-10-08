@@ -19,12 +19,12 @@ function test2( name: string ):string{
 
 test2( "234" )
 
-class Person{
+class _Person{
     name: string;
     age : number;
 }
 
-let person1 = new Person();
+let person1 = new _Person();
 person1.age = 12;
 person1.name = "eee";
 
