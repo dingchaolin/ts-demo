@@ -3,7 +3,7 @@
  */
 //使用接口声明一些属性
 interface IPerson{
-    name:string,
+    name:string;
     age:number
 };
 

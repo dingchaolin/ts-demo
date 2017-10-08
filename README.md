@@ -1,8 +1,10 @@
 
 ## 安装typescript编译器
 - npm install -g typescript
+
 ## 初始化 
 - tsc --init
+
 ## 安装typings
 - npm install typings -g
 
