@@ -1,3 +1,8 @@
+
+## 安装typescript编译器
+- npm install -g typescript
+## 初始化 
+- tsc --init
 ## 安装typings
 - npm install typings -g
 
@@ -26,4 +31,9 @@
 
 ## 查看版本信息
 - typings info env~node --versions
+
+## 安装node
+- typings install dt~node --global --save
+- node 提供的fs http 等就能使用了
+
 
